@@ -1,0 +1,369 @@
+{
+ "checks": [
+  [
+   "length exactly DURATION 73.0 s",
+   true,
+   "3504000 samples"
+  ],
+  [
+   "48 kHz stereo 16-bit",
+   true,
+   ""
+  ],
+  [
+   "integrated about -16 LUFS (+-0.5)",
+   true,
+   "-16.0"
+  ],
+  [
+   "true peak below -1.5 dBFS",
+   true,
+   "-1.9"
+  ],
+  [
+   "the storm is already there on sample 0 (no fade in)",
+   true,
+   "peak in first 10 ms -18.1 dB"
+  ],
+  [
+   "silent at the very end",
+   true,
+   "last 10 ms -70.3 dB"
+  ],
+  [
+   "hit bolt lands on its cue (+-1 frame)",
+   true,
+   "+2.3 ms"
+  ],
+  [
+   "hit bolt source sample-exact (+-2 ms)",
+   true,
+   "+0.2 ms"
+  ],
+  [
+   "hit bolt audible in the mix (band rises >= 6 dB)",
+   true,
+   "19.4 dB"
+  ],
+  [
+   "hit cupFall lands on its cue (+-1 frame)",
+   true,
+   "+6.8 ms"
+  ],
+  [
+   "hit cupFall source sample-exact (+-2 ms)",
+   true,
+   "+0.0 ms"
+  ],
+  [
+   "hit cupFall audible in the mix (band rises >= 6 dB)",
+   true,
+   "23.9 dB"
+  ],
+  [
+   "hit keyHand lands on its cue (+-1 frame)",
+   true,
+   "+6.4 ms"
+  ],
+  [
+   "hit keyHand source sample-exact (+-2 ms)",
+   true,
+   "+0.0 ms"
+  ],
+  [
+   "hit keyHand audible in the mix (band rises >= 6 dB)",
+   true,
+   "46.7 dB"
+  ],
+  [
+   "hit matchStrike lands on its cue (+-1 frame)",
+   true,
+   "+14.3 ms"
+  ],
+  [
+   "hit matchStrike source sample-exact (+-2 ms)",
+   true,
+   "+0.0 ms"
+  ],
+  [
+   "hit matchStrike audible in the mix (band rises >= 6 dB)",
+   true,
+   "16.4 dB"
+  ],
+  [
+   "hit mantleCatch lands on its cue (+-1 frame)",
+   true,
+   "+11.8 ms"
+  ],
+  [
+   "hit mantleCatch source sample-exact (+-2 ms)",
+   true,
+   "+1.4 ms"
+  ],
+  [
+   "hit mantleCatch audible in the mix (band rises >= 6 dB)",
+   true,
+   "18.2 dB"
+  ],
+  [
+   "hit notch lands on its cue (+-1 frame)",
+   true,
+   "+5.8 ms"
+  ],
+  [
+   "hit notch source sample-exact (+-2 ms)",
+   true,
+   "+0.0 ms"
+  ],
+  [
+   "hit notch audible in the mix (band rises >= 6 dB)",
+   true,
+   "29.5 dB"
+  ],
+  [
+   "hit waveBreak lands on its cue (+-1 frame)",
+   true,
+   "+6.9 ms"
+  ],
+  [
+   "hit waveBreak source sample-exact (+-2 ms)",
+   true,
+   "+1.0 ms"
+  ],
+  [
+   "hit waveBreak audible in the mix (band rises >= 6 dB)",
+   true,
+   "65.1 dB"
+  ],
+  [
+   "hit sprayHit lands on its cue (+-1 frame)",
+   true,
+   "+5.3 ms"
+  ],
+  [
+   "hit sprayHit source sample-exact (+-2 ms)",
+   true,
+   "+0.7 ms"
+  ],
+  [
+   "hit sprayHit audible in the mix (band rises >= 6 dB)",
+   true,
+   "9.1 dB"
+  ],
+  [
+   "hit pierBump lands on its cue (+-1 frame)",
+   true,
+   "+17.7 ms"
+  ],
+  [
+   "hit pierBump source sample-exact (+-2 ms)",
+   true,
+   "+1.8 ms"
+  ],
+  [
+   "hit pierBump audible in the mix (band rises >= 6 dB)",
+   true,
+   "21.4 dB"
+  ],
+  [
+   "inhale before the break is near-silent (rms < -42, peak < -30 dBFS)",
+   true,
+   "rms -51.6, peak -37.6"
+  ],
+  [
+   "the break is the loudest moment of the film (within 0.5 LU)",
+   true,
+   "break -9.4, film max -9.4 at 46.60 s"
+  ],
+  [
+   "the break rises out of the silence (>= 30 dB)",
+   true,
+   "38.7 dB"
+  ],
+  [
+   "no music between the break and the surf (music stem < race - 60 dB)",
+   true,
+   "race -10.1, gap -199.9 dB"
+  ],
+  [
+   "the music returns with the surf (within 8 dB of the race)",
+   true,
+   "-16.0 dB"
+  ],
+  [
+   "music cut dead on the bolt",
+   true,
+   "-199.9 dB"
+  ],
+  [
+   "held breath before the CLUNK (>= 6 dB below the climb)",
+   true,
+   "-15.6 -> -30.9"
+  ],
+  [
+   "thunder follows the lightning at 2.9 (100 ms peak >= 4 dB over the pre-flash body, roll or crack band)",
+   true,
+   "roll +4.9 dB, crack +9.1 dB"
+  ],
+  [
+   "thunder follows the lightning at 8.6 (100 ms peak >= 4 dB over the pre-flash body, roll or crack band)",
+   true,
+   "roll +4.7 dB, crack +28.3 dB"
+  ],
+  [
+   "thunder follows the lightning at 20.3 (100 ms peak >= 4 dB over the pre-flash body, roll or crack band)",
+   true,
+   "roll +7.6 dB, crack +4.3 dB"
+  ],
+  [
+   "thunder follows the lightning at 36.8 (100 ms peak >= 4 dB over the pre-flash body, roll or crack band)",
+   true,
+   "roll +7.4 dB, crack +11.5 dB"
+  ],
+  [
+   "thunder follows the lightning at 45.1 (100 ms peak >= 4 dB over the pre-flash body, roll or crack band)",
+   true,
+   "roll +3.1 dB, crack +9.0 dB"
+  ],
+  [
+   "thunder follows the lightning at 5.3 (100 ms peak >= 4 dB over the pre-flash body, roll or crack band)",
+   true,
+   "roll +0.2 dB, crack +15.3 dB"
+  ],
+  [
+   "thunder follows the lightning at 7.2 (100 ms peak >= 4 dB over the pre-flash body, roll or crack band)",
+   true,
+   "roll +6.8 dB, crack +-0.3 dB"
+  ],
+  [
+   "thunder follows the lightning at 23.4 (100 ms peak >= 4 dB over the pre-flash body, roll or crack band)",
+   true,
+   "roll +7.5 dB, crack +6.9 dB"
+  ],
+  [
+   "gear clicks follow layout.beamAz (all within 2 ms)",
+   true,
+   "241/241"
+  ],
+  [
+   "the notch tooth of beamAz is CUES.notch (the CLUNK)",
+   true,
+   "25.6"
+  ],
+  [
+   "no D major triad before the pier bump",
+   true,
+   "first D major at 54.6"
+  ],
+  [
+   "the end is D major (no F natural after the last climb)",
+   true,
+   "0"
+  ],
+  [
+   "no Eb (the sea threat) after home",
+   true,
+   "0"
+  ]
+ ],
+ "integrated": -16.0,
+ "lra": 9.8,
+ "true_peak": -1.9,
+ "duration": 73.0,
+ "sr": 48000,
+ "momentary_max_per_shot": {
+  "s01": -14.2,
+  "s02": -10.7,
+  "s03": -20.0,
+  "s04": -23.0,
+  "s05": -22.9,
+  "s06": -15.7,
+  "s07": -15.9,
+  "s08": -17.7,
+  "s09": -16.2,
+  "s10": -14.6,
+  "s11": -16.2,
+  "s12": -11.6,
+  "s13": -11.4,
+  "s14": -13.1,
+  "s15": -10.2,
+  "s16": -11.1,
+  "s17": -13.0,
+  "s18": -11.9,
+  "s19": -11.0,
+  "s20": -9.4,
+  "s21": -11.7,
+  "s22": -17.7,
+  "s23": -13.9,
+  "s24": -12.8,
+  "s25": -16.1,
+  "s26": -18.6,
+  "s27": -19.2,
+  "s28": -22.2
+ },
+ "hits": {
+  "bolt": {
+   "t": 2.9,
+   "attack": 2.9023,
+   "err_ms": 2.3,
+   "rise": 20.1,
+   "band_jump": 19.4
+  },
+  "cupFall": {
+   "t": 6.6,
+   "attack": 6.6068,
+   "err_ms": 6.8,
+   "rise": 26.2,
+   "band_jump": 23.9
+  },
+  "keyHand": {
+   "t": 9.4,
+   "attack": 9.4064,
+   "err_ms": 6.4,
+   "rise": 47.5,
+   "band_jump": 46.7
+  },
+  "matchStrike": {
+   "t": 15.6,
+   "attack": 15.6143,
+   "err_ms": 14.3,
+   "rise": 17.1,
+   "band_jump": 16.4
+  },
+  "mantleCatch": {
+   "t": 16.4,
+   "attack": 16.4118,
+   "err_ms": 11.8,
+   "rise": 18.0,
+   "band_jump": 18.2
+  },
+  "notch": {
+   "t": 25.6,
+   "attack": 25.6058,
+   "err_ms": 5.8,
+   "rise": 30.7,
+   "band_jump": 29.5
+  },
+  "waveBreak": {
+   "t": 46.4,
+   "attack": 46.4069,
+   "err_ms": 6.9,
+   "rise": 56.5,
+   "band_jump": 65.1
+  },
+  "sprayHit": {
+   "t": 51.9,
+   "attack": 51.9053,
+   "err_ms": 5.3,
+   "rise": 12.0,
+   "band_jump": 9.1
+  },
+  "pierBump": {
+   "t": 54.6,
+   "attack": 54.6177,
+   "err_ms": 17.7,
+   "rise": 15.0,
+   "band_jump": 21.4
+  }
+ }
+}
